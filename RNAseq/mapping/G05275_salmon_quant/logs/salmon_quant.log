@@ -1,0 +1,96 @@
+[2018-02-02 10:36:07.276] [jointLog] [info] numQuantThreads = 10
+[2018-02-02 10:36:07.906] [jointLog] [info] replaced 87913 non-ACGT nucleotides with random nucleotides
+[2018-02-02 10:36:08.185] [fileLog] [info] quantification processed 0 fragments so far
+
+[2018-02-02 10:36:09.786] [fileLog] [info] quantification processed 1000000 fragments so far
+
+[2018-02-02 10:36:11.621] [fileLog] [info] quantification processed 2000000 fragments so far
+
+[2018-02-02 10:36:13.547] [fileLog] [info] quantification processed 3000000 fragments so far
+
+[2018-02-02 10:36:15.464] [fileLog] [info] quantification processed 4000000 fragments so far
+
+[2018-02-02 10:36:17.297] [fileLog] [info] quantification processed 5000000 fragments so far
+
+[2018-02-02 10:36:17.757] [jointLog] [info] 
+
+The alignment group queue pool has been exhausted.  3211742 extra fragments were allocated on the heap to saturate the pool.  No new fragments will be allocated
+
+
+[2018-02-02 10:36:19.983] [fileLog] [info] quantification processed 6000000 fragments so far
+
+[2018-02-02 10:36:23.029] [fileLog] [info] quantification processed 7000000 fragments so far
+
+[2018-02-02 10:36:25.066] [fileLog] [info] quantification processed 8000000 fragments so far
+
+[2018-02-02 10:36:27.067] [fileLog] [info] quantification processed 9000000 fragments so far
+
+[2018-02-02 10:36:29.118] [fileLog] [info] quantification processed 10000000 fragments so far
+
+[2018-02-02 10:36:31.117] [fileLog] [info] quantification processed 11000000 fragments so far
+
+[2018-02-02 10:36:33.112] [fileLog] [info] quantification processed 12000000 fragments so far
+
+[2018-02-02 10:36:35.176] [fileLog] [info] quantification processed 13000000 fragments so far
+
+[2018-02-02 10:36:37.176] [fileLog] [info] quantification processed 14000000 fragments so far
+
+[2018-02-02 10:36:39.236] [fileLog] [info] quantification processed 15000000 fragments so far
+
+[2018-02-02 10:36:41.272] [fileLog] [info] quantification processed 16000000 fragments so far
+
+[2018-02-02 10:36:43.308] [fileLog] [info] quantification processed 17000000 fragments so far
+
+[2018-02-02 10:36:45.323] [fileLog] [info] quantification processed 18000000 fragments so far
+
+[2018-02-02 10:36:47.371] [fileLog] [info] quantification processed 19000000 fragments so far
+
+[2018-02-02 10:36:49.441] [fileLog] [info] quantification processed 20000000 fragments so far
+
+[2018-02-02 10:36:51.479] [fileLog] [info] quantification processed 21000000 fragments so far
+
+[2018-02-02 10:36:53.523] [fileLog] [info] quantification processed 22000000 fragments so far
+
+[2018-02-02 10:36:55.590] [fileLog] [info] quantification processed 23000000 fragments so far
+
+[2018-02-02 10:36:57.588] [fileLog] [info] quantification processed 24000000 fragments so far
+
+[2018-02-02 10:36:59.633] [fileLog] [info] quantification processed 25000000 fragments so far
+
+[2018-02-02 10:37:01.631] [fileLog] [info] quantification processed 26000000 fragments so far
+
+[2018-02-02 10:37:03.634] [fileLog] [info] quantification processed 27000000 fragments so far
+
+[2018-02-02 10:37:05.648] [fileLog] [info] quantification processed 28000000 fragments so far
+
+[2018-02-02 10:37:05.889] [fileLog] [info] quantification processed 28114136 fragments so far
+
+[2018-02-02 10:37:05.894] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 28114136
+# of uniquely mapped reads : 21851569
+# ambiguously mapped reads : 6262567
+
+
+
+[2018-02-02 10:37:06.374] [jointLog] [info] Computed 274887 rich equivalence classes for further processing
+[2018-02-02 10:37:06.374] [jointLog] [info] Counted 28114136 total reads in the equivalence classes 
+[2018-02-02 10:37:06.374] [jointLog] [info] starting optimizer
+[2018-02-02 10:37:06.551] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2018-02-02 10:37:06.862] [jointLog] [info] iteration = 0 | max rel diff. = 4.63426
+[2018-02-02 10:37:35.938] [jointLog] [info] iteration = 100 | max rel diff. = 0.0600134
+[2018-02-02 10:38:04.773] [jointLog] [info] iteration = 200 | max rel diff. = 0.0385045
+[2018-02-02 10:38:33.621] [jointLog] [info] iteration = 300 | max rel diff. = 0.0278488
+[2018-02-02 10:39:02.637] [jointLog] [info] iteration = 400 | max rel diff. = 0.018712
+[2018-02-02 10:39:31.721] [jointLog] [info] iteration = 500 | max rel diff. = 0.0165669
+[2018-02-02 10:40:00.670] [jointLog] [info] iteration = 600 | max rel diff. = 0.0161627
+[2018-02-02 10:40:29.635] [jointLog] [info] iteration = 700 | max rel diff. = 0.0121672
+[2018-02-02 10:40:58.591] [jointLog] [info] iteration = 800 | max rel diff. = 0.0121677
+[2018-02-02 10:41:28.696] [jointLog] [info] iteration = 900 | max rel diff. = 0.0121679
+[2018-02-02 10:41:57.624] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0121679
+[2018-02-02 10:42:26.549] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0121679
+[2018-02-02 10:42:57.325] [jointLog] [info] iteration = 1200 | max rel diff. = 0.0121679
+[2018-02-02 10:43:14.299] [jointLog] [info] iteration = 1257 | max rel diff. = 0.00598757
+[2018-02-02 10:43:14.301] [jointLog] [info] finished optimizer

@@ -1,0 +1,1 @@
+The plot displays the "stress"-value for each MDS plot and is a measure for the quality of the MDS plot. The lower this level, the better fit of the data to the model which basically forms the plot in the end. The data for the plot can be found in {{snakemake.output["mds"]}}.

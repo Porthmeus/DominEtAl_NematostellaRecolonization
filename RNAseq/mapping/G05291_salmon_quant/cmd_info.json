@@ -1,0 +1,9 @@
+{
+    "salmon_version": "0.9.1",
+    "libType": "ISR",
+    "threads": "16",
+    "targets": "/sfs/fs5/home-sh/sunzm423/seq_reference/Nv_vienna/nematostellaTx_vienna.fas",
+    "alignments": "output.bam",
+    "output": "salmon_quant",
+    "auxDir": "aux_info"
+}

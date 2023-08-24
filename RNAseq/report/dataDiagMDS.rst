@@ -1,0 +1,1 @@
+The file contains data of the first two components of the iterative MDS plot in {{snakemake.output["mds"]}}, across the different threshold and batch corrections for all samples. The data contains also the stress values for the barplot {{snakemake.output["stress"]}}. Both plots are stored in the Diagnostic category and were created by the plotDiagMDS rule.

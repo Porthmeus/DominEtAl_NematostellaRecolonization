@@ -1,0 +1,80 @@
+[2018-02-02 10:32:48.562] [jointLog] [info] numQuantThreads = 10
+[2018-02-02 10:32:49.203] [jointLog] [info] replaced 87913 non-ACGT nucleotides with random nucleotides
+[2018-02-02 10:32:49.481] [fileLog] [info] quantification processed 0 fragments so far
+
+[2018-02-02 10:32:50.950] [fileLog] [info] quantification processed 1000000 fragments so far
+
+[2018-02-02 10:32:52.611] [fileLog] [info] quantification processed 2000000 fragments so far
+
+[2018-02-02 10:32:54.337] [fileLog] [info] quantification processed 3000000 fragments so far
+
+[2018-02-02 10:32:56.117] [fileLog] [info] quantification processed 4000000 fragments so far
+
+[2018-02-02 10:32:57.336] [jointLog] [info] 
+
+The alignment group queue pool has been exhausted.  2675937 extra fragments were allocated on the heap to saturate the pool.  No new fragments will be allocated
+
+
+[2018-02-02 10:32:58.236] [fileLog] [info] quantification processed 5000000 fragments so far
+
+[2018-02-02 10:33:01.185] [fileLog] [info] quantification processed 6000000 fragments so far
+
+[2018-02-02 10:33:04.139] [fileLog] [info] quantification processed 7000000 fragments so far
+
+[2018-02-02 10:33:05.934] [fileLog] [info] quantification processed 8000000 fragments so far
+
+[2018-02-02 10:33:07.738] [fileLog] [info] quantification processed 9000000 fragments so far
+
+[2018-02-02 10:33:09.637] [fileLog] [info] quantification processed 10000000 fragments so far
+
+[2018-02-02 10:33:11.436] [fileLog] [info] quantification processed 11000000 fragments so far
+
+[2018-02-02 10:33:13.266] [fileLog] [info] quantification processed 12000000 fragments so far
+
+[2018-02-02 10:33:15.044] [fileLog] [info] quantification processed 13000000 fragments so far
+
+[2018-02-02 10:33:16.945] [fileLog] [info] quantification processed 14000000 fragments so far
+
+[2018-02-02 10:33:18.823] [fileLog] [info] quantification processed 15000000 fragments so far
+
+[2018-02-02 10:33:20.598] [fileLog] [info] quantification processed 16000000 fragments so far
+
+[2018-02-02 10:33:22.398] [fileLog] [info] quantification processed 17000000 fragments so far
+
+[2018-02-02 10:33:24.227] [fileLog] [info] quantification processed 18000000 fragments so far
+
+[2018-02-02 10:33:25.986] [fileLog] [info] quantification processed 19000000 fragments so far
+
+[2018-02-02 10:33:27.845] [fileLog] [info] quantification processed 20000000 fragments so far
+
+[2018-02-02 10:33:29.702] [fileLog] [info] quantification processed 21000000 fragments so far
+
+[2018-02-02 10:33:31.564] [fileLog] [info] quantification processed 22000000 fragments so far
+
+[2018-02-02 10:33:33.463] [fileLog] [info] quantification processed 23000000 fragments so far
+
+[2018-02-02 10:33:34.992] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 23779099
+# of uniquely mapped reads : 18592806
+# ambiguously mapped reads : 5186293
+
+
+
+[2018-02-02 10:33:34.985] [fileLog] [info] quantification processed 23779099 fragments so far
+
+[2018-02-02 10:33:35.239] [jointLog] [info] Computed 210554 rich equivalence classes for further processing
+[2018-02-02 10:33:35.239] [jointLog] [info] Counted 23779099 total reads in the equivalence classes 
+[2018-02-02 10:33:35.240] [jointLog] [info] starting optimizer
+[2018-02-02 10:33:35.341] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2018-02-02 10:33:35.491] [jointLog] [info] iteration = 0 | max rel diff. = 6.82219
+[2018-02-02 10:33:49.428] [jointLog] [info] iteration = 100 | max rel diff. = 0.0740397
+[2018-02-02 10:34:03.382] [jointLog] [info] iteration = 200 | max rel diff. = 0.0308769
+[2018-02-02 10:34:17.675] [jointLog] [info] iteration = 300 | max rel diff. = 0.0234485
+[2018-02-02 10:34:32.520] [jointLog] [info] iteration = 400 | max rel diff. = 0.021638
+[2018-02-02 10:34:47.290] [jointLog] [info] iteration = 500 | max rel diff. = 0.0210227
+[2018-02-02 10:35:02.020] [jointLog] [info] iteration = 600 | max rel diff. = 0.0162774
+[2018-02-02 10:35:07.907] [jointLog] [info] iteration = 641 | max rel diff. = 0.00875031
+[2018-02-02 10:35:07.909] [jointLog] [info] finished optimizer

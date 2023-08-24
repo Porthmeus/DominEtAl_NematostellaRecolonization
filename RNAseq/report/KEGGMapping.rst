@@ -1,0 +1,1 @@
+This is a Kegg mapping file containing all the differential genes in one file and its corresponding KEGG ID. Every Condition which is compared is seperates the table in the file with a head demarcated by a #. The file can be used to map the differential genes to the KEGG pathways with the `KEGG Mapper tool <https://www.genome.jp/kegg/tool/map_pathway.html>`__.

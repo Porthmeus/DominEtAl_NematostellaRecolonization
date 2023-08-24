@@ -1,0 +1,99 @@
+[2018-02-02 10:37:53.304] [jointLog] [info] numQuantThreads = 10
+[2018-02-02 10:37:53.952] [jointLog] [info] replaced 87913 non-ACGT nucleotides with random nucleotides
+[2018-02-02 10:37:54.230] [fileLog] [info] quantification processed 0 fragments so far
+
+[2018-02-02 10:37:55.912] [fileLog] [info] quantification processed 1000000 fragments so far
+
+[2018-02-02 10:37:57.714] [fileLog] [info] quantification processed 2000000 fragments so far
+
+[2018-02-02 10:37:59.585] [fileLog] [info] quantification processed 3000000 fragments so far
+
+[2018-02-02 10:38:01.433] [fileLog] [info] quantification processed 4000000 fragments so far
+
+[2018-02-02 10:38:02.572] [jointLog] [info] 
+
+The alignment group queue pool has been exhausted.  3016206 extra fragments were allocated on the heap to saturate the pool.  No new fragments will be allocated
+
+
+[2018-02-02 10:38:03.349] [fileLog] [info] quantification processed 5000000 fragments so far
+
+[2018-02-02 10:38:06.443] [fileLog] [info] quantification processed 6000000 fragments so far
+
+[2018-02-02 10:38:09.441] [fileLog] [info] quantification processed 7000000 fragments so far
+
+[2018-02-02 10:38:11.354] [fileLog] [info] quantification processed 8000000 fragments so far
+
+[2018-02-02 10:38:13.292] [fileLog] [info] quantification processed 9000000 fragments so far
+
+[2018-02-02 10:38:15.194] [fileLog] [info] quantification processed 10000000 fragments so far
+
+[2018-02-02 10:38:17.072] [fileLog] [info] quantification processed 11000000 fragments so far
+
+[2018-02-02 10:38:18.997] [fileLog] [info] quantification processed 12000000 fragments so far
+
+[2018-02-02 10:38:20.886] [fileLog] [info] quantification processed 13000000 fragments so far
+
+[2018-02-02 10:38:22.803] [fileLog] [info] quantification processed 14000000 fragments so far
+
+[2018-02-02 10:38:24.783] [fileLog] [info] quantification processed 15000000 fragments so far
+
+[2018-02-02 10:38:26.765] [fileLog] [info] quantification processed 16000000 fragments so far
+
+[2018-02-02 10:38:28.773] [fileLog] [info] quantification processed 17000000 fragments so far
+
+[2018-02-02 10:38:30.721] [fileLog] [info] quantification processed 18000000 fragments so far
+
+[2018-02-02 10:38:32.714] [fileLog] [info] quantification processed 19000000 fragments so far
+
+[2018-02-02 10:38:34.718] [fileLog] [info] quantification processed 20000000 fragments so far
+
+[2018-02-02 10:38:36.715] [fileLog] [info] quantification processed 21000000 fragments so far
+
+[2018-02-02 10:38:38.980] [fileLog] [info] quantification processed 22000000 fragments so far
+
+[2018-02-02 10:38:41.312] [fileLog] [info] quantification processed 23000000 fragments so far
+
+[2018-02-02 10:38:44.294] [fileLog] [info] quantification processed 24000000 fragments so far
+
+[2018-02-02 10:38:47.343] [fileLog] [info] quantification processed 25000000 fragments so far
+
+[2018-02-02 10:38:50.062] [fileLog] [info] quantification processed 26000000 fragments so far
+
+[2018-02-02 10:38:52.431] [fileLog] [info] quantification processed 27000000 fragments so far
+
+[2018-02-02 10:38:54.639] [fileLog] [info] quantification processed 28000000 fragments so far
+
+[2018-02-02 10:38:56.699] [fileLog] [info] quantification processed 29000000 fragments so far
+
+[2018-02-02 10:38:58.809] [fileLog] [info] quantification processed 30000000 fragments so far
+
+[2018-02-02 10:39:00.893] [fileLog] [info] quantification processed 31000000 fragments so far
+
+[2018-02-02 10:39:03.000] [fileLog] [info] quantification processed 32000000 fragments so far
+
+[2018-02-02 10:39:03.256] [fileLog] [info] quantification processed 32119300 fragments so far
+
+[2018-02-02 10:39:03.267] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 32119300
+# of uniquely mapped reads : 25051683
+# ambiguously mapped reads : 7067617
+
+
+
+[2018-02-02 10:39:03.687] [jointLog] [info] Computed 295879 rich equivalence classes for further processing
+[2018-02-02 10:39:03.687] [jointLog] [info] Counted 32119300 total reads in the equivalence classes 
+[2018-02-02 10:39:03.688] [jointLog] [info] starting optimizer
+[2018-02-02 10:39:03.897] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2018-02-02 10:39:04.053] [jointLog] [info] iteration = 0 | max rel diff. = 4.22206
+[2018-02-02 10:39:18.925] [jointLog] [info] iteration = 100 | max rel diff. = 0.084835
+[2018-02-02 10:39:34.038] [jointLog] [info] iteration = 200 | max rel diff. = 0.0357748
+[2018-02-02 10:39:48.981] [jointLog] [info] iteration = 300 | max rel diff. = 0.018947
+[2018-02-02 10:40:03.454] [jointLog] [info] iteration = 400 | max rel diff. = 0.0181297
+[2018-02-02 10:40:17.900] [jointLog] [info] iteration = 500 | max rel diff. = 0.0181312
+[2018-02-02 10:40:32.360] [jointLog] [info] iteration = 600 | max rel diff. = 0.0161291
+[2018-02-02 10:40:46.863] [jointLog] [info] iteration = 700 | max rel diff. = 0.0106354
+[2018-02-02 10:40:54.836] [jointLog] [info] iteration = 756 | max rel diff. = 0.00982259
+[2018-02-02 10:40:54.837] [jointLog] [info] finished optimizer
