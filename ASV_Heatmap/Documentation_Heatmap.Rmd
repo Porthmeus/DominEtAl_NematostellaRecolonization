@@ -11,14 +11,14 @@ Hanna investigated in her PhD thesis the question, how this microbial community 
 
 The experiment results in a rather complex data set having several dimensions: first, the source of recolonizing bacteria (inocula), which served as a reference to what was used to recolonize the animals. This is another dimension in the adult recolonized animals. Third, there are different time points (2, 7, 14, 28 day post recolonization [dpr]).
 
-To the data: you will find two data sets in the directory _data_. Both are relative abundance data of 16S-sequencing, one for ESV (**table_rel.tsv**) and one for OTUs (**otu_97_cluster.csv**). For the reader not familiar with the terms - ESV stands for Exact Sequence Variant, thus represents single bacterial species/strains, even with minimal sequence divergance in the 16S amplicon - OTU stands for Operational Taxonomic Units, which represent all ESVs after clustering at 97% identity level.
+To the data: you will find two data sets in the directory _data_. Both are relative abundance data of 16S-sequencing, one for ASV (**table_rel.tsv**) and one for OTUs (**otu_97_cluster.csv**). For the reader not familiar with the terms - ASV stands for Exact Sequence Variant, thus represents single bacterial species/strains, even with minimal sequence divergance in the 16S amplicon - OTU stands for Operational Taxonomic Units, which represent all ASVs after clustering at 97% identity level.
 The file **mapping_recolonization.tsv** contains meta data for the samples sequenced. 
 
 **NOTE:** the data files contain more samples, than given in the the meta data file, as Hanna sequnced several other conditions as well, e. g. wild types without the recolonization. We, however, exclude this data in the analysis, as it appeared not important at this point to us.
 
 The idea of the whole plot is to show, that the recolonization event is recapitulating the bacterial community changes observed during the development in _Nematostella_, disregarding the origin of bacteria.
 
-For now, we decided to analyse the ESV data, as it is state of the art. Since the names for the ESVs are unreadable, I will substitute them and simply number them from 1:n. A corresponding table can be found in the _data_ directory, called **ESV2Number.csv**. 
+For now, we decided to analyse the ASV data, as it is state of the art. Since the names for the ASVs are unreadable, I will substitute them and simply number them from 1:n. A corresponding table can be found in the _data_ directory, called **ASV2Number.csv**. 
 So first thing is to load necessary libraries and data and further to recreate a matrix from the data.table.
 ```{r load_data, message = FALSE}
 require(pheatmap)
@@ -36,20 +36,20 @@ mat <- fread(file.path(dataDir,"table_rel.tsv"))
 # cast the data table into a matrix
 mat2  <- as.matrix(mat[,-1])
 
-# generate new names for the ESVs and add them as row.names
+# generate new names for the ASVs and add them as row.names
 colnames(mat)[1] <- "OTU"
-mat[,ESV := paste("ESV",1:nrow(mat), sep = "_")] 
-rownames(mat2) <- mat[,ESV]
+mat[,ASV := paste("ASV",1:nrow(mat), sep = "_")] 
+rownames(mat2) <- mat[,ASV]
 
-# write a table as a meta file to the data directory for the conversion of ESV
-# identifier to the ESV number
-write.csv(mat[,.(ESV_ID = OTU,ESV=ESV)], 
-          file = file.path(dataDir, "ESV2Number.csv"),
+# write a table as a meta file to the data directory for the conversion of ASV
+# identifier to the ASV number
+write.csv(mat[,.(ASV_ID = OTU,ASV=ASV)], 
+          file = file.path(dataDir, "ASV2Number.csv"),
           row.names=FALSE)
 ```
 
 
-The first thing which will be necessary is to filter the data for the samples which are present in the meta data file and which are of importance for us. Further, I removed all ESVs which have no more reads in the remaining samples.
+The first thing which will be necessary is to filter the data for the samples which are present in the meta data file and which are of importance for us. Further, I removed all ASVs which have no more reads in the remaining samples.
 
 ```{r rawfilter_data}
 mat2 <- mat2[,meta[,sampleID]]
@@ -187,11 +187,11 @@ p_minMax <- pheatmap(matMinMax[value_order,],
                   border_color = NA)
 ```
 
-Just because I am curious and the data is there: I want to know, how much data is represented by this `r length(sel)` ESVs. Since I am calculating with relative abundances simply summing all abundences devided by the total number of samples should result in the fraction of data represented by the ESVs given in the data.
+Just because I am curious and the data is there: I want to know, how much data is represented by this `r length(sel)` ASVs. Since I am calculating with relative abundances simply summing all abundences devided by the total number of samples should result in the fraction of data represented by the ASVs given in the data.
 
 ```{r calcDataRepresentation}
 
 print(sum(mat2[sel,])/ncol(mat2))
 ```
 
-Thus `r round(sum(mat2[sel,])/sum(mat2)*100,2)`% of the total data is represented by the `r length(sel)` ESVs in the data. This is quite high and indicates a good filter.
+Thus `r round(sum(mat2[sel,])/sum(mat2)*100,2)`% of the total data is represented by the `r length(sel)` ASVs in the data. This is quite high and indicates a good filter.
