@@ -47,17 +47,6 @@ rule all:
         "Plots/resDiagHistPvalsFCbaseMeanPlot_{comp}.svg",
         "Plots/resDiagSmallPToCountsPlot_{comp}.svg",
         "DESeq2/KEGGMapping.txt",
-<<<<<<< HEAD
-=======
-        #        "proteinFamilies/NatrixDocumentation_ProteinFamilies.html",
-        #        "proteinFamilies/Enrichment/ProteinFamilies.csv",
-        #        "proteinFamilies/Enrichment/plot{comp}_PF_gsea.svg",
-        #        "proteinFamilies/Enrichment/data{comp}_PF_gsea.csv",
-        #        "proteinFamilies/Enrichment/data{comp}_PF_gsea.RData",
-        #        "proteinFamilies/Enrichment/plot{comp}_PF_hyGeo.svg",
-        #        "proteinFamilies/Enrichment/data{comp}_PF_hyGeo.csv",
-        #        "proteinFamilies/Enrichment/data{comp}_PF_hyGeo.RData",
->>>>>>> 69491ec (Cleanup of the RNAseq analysis)
         "KEGG/Enrichment/plot{comp}_KEGG_gsea.svg",
         "KEGG/Enrichment/data{comp}_KEGG_gsea.csv",
         "KEGG/Enrichment/data{comp}_KEGG_gsea.RData",
